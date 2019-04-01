@@ -1,0 +1,10 @@
+<main>
+  <h1>LifeCycle</h1>
+  <div>
+    <input type="text" [(ngModel)]='name' maxlength='10'>
+    <app-skill (send)='get($event)' [numb] = '1' [skillName] = 'name' [ngClass]='{red: true}'></app-skill>
+    <app-skill (send)='get($event)' [numb] = '2' [skillName] = 'name' [ngClass]='{blue: true}'></app-skill>
+    <app-skill (send)='get($event)' [numb] = '3' [skillName] = 'name' [ngClass]='{yellowgreen: true}'></app-skill>
+    <h2>Total: {{rez}}</h2>
+  </div>
+</main>
