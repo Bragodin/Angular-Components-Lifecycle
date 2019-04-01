@@ -1,3 +1,15 @@
+## TASK
+## Angular-Components-Lifecycle
+
+Необходимо создать ангуляр-приложение, реализовать в нем все методы жизненного цикла (onChange, onInit, onDestroy и др.). Помечаем их, логируем в консоль.
+
+Пример приложения:
+1. Вверху input Name. При его изменении изменяется Name в трех SkillItem
+2. SkillItem имеет Name, Skill (для каждого свой, меняться не будет), кнопки '+'/'-' изменяют значения скилла на 1.
+3. При изменении Name, значение скилла остаются такими же.
+4. Внизу поле Total для подсчета общей суммы значения скилла.
+5. У каждого компонента input или/и output параметр
+
 # Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
